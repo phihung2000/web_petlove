@@ -4,7 +4,7 @@ version : 1.0
 java version : 1.8
 JDK :1.8.0
 Tải về vào server -> vào tomcat 9 -> vào server.xml -> ở dòng cuối cùng
-<Context docBase="webPetLove" path="" reloadable="true" source="org.eclipse.jst.jee.server:webPetLove"/><Context docBase="MovieRecommender" path="/MovieRecommender" reloadable="true" source="org.eclipse.jst.jee.server:MovieRecommender"/></Host>
+Context docBase="webPetLove" path="" reloadable="true" source="org.eclipse.jst.jee.server:webPetLove"/><Context docBase="MovieRecommender" path="/MovieRecommender" reloadable="true" source="org.eclipse.jst.jee.server:MovieRecommender"/
 sửa path ="" như vậy .
 sau đó khi chạy localhost thì search : http://localhost:8080/shop/homepage  ( đây là trang chủ hiện tất cả các sản phẩm chưa có phân trang vì nó chưa phải trang chính )
 http://localhost:8080/shop/allpet ( trang để cbi cho hệ thống khuyến nghị )
